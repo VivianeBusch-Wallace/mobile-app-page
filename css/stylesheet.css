@@ -1,13 +1,15 @@
-/* * {
-} */
-body {
-  background-image: url(../images/bg_001.jpg);
+* {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color: white;
+}
+body {
+  background-image: url(../images/bg_001.jpg);
 }
 #body-container {
   margin: 1vh 20vw;
 }
+/* navigation */
 nav div {
   float: left;
   border: white solid 2px;
@@ -33,4 +35,23 @@ li a {
   border: violet solid 2px;
   text-transform: uppercase;
   text-decoration: none;
+}
+/* main section */
+/* text */
+
+/* buttons */
+input[type="button"] {
+  height: 3em;
+  width: 10em;
+  border-radius: 0.5em;
+  border-style: none;
+}
+#learn-more-button {
+  background-color: rgb(2, 199, 67);
+}
+#get-app-button {
+  background-color: rgb(0, 135, 245);
+}
+/* phone images */
+#phone-images {
 }
