@@ -1,6 +1,17 @@
 body {
   background-image: url(../images/bg_001.jpg);
 }
+
+/* nav {
+  height: 10vh;
+} */
+nav ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
 #challenge-logo {
-  height: ;
+  height: 8vh;
+  width: auto;
 }
