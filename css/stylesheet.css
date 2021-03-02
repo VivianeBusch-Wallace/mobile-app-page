@@ -7,7 +7,7 @@ body {
   background-image: url(../images/bg_001.jpg);
 }
 #body-container {
-  margin: 2vh 20vw 2vh 20vw;
+  margin: 2vh 22vw 2vh 22vw;
 }
 /* navigation */
 nav {
@@ -37,10 +37,8 @@ li a {
 }
 /* main section */
 section {
-  margin-top: 10vh;
+  margin-top: 4vh;
   display: inline-flex;
-  /* width: max-content; */
-  position: relative;
 }
 /* text and buttons */
 #text-buttons-container {
@@ -59,15 +57,14 @@ h1 {
 /* buttons */
 input[type="button"] {
   height: 3em;
-  width: 10em;
-  border-radius: 0.4em;
+  width: 12em;
+  border-radius: 0.2em;
   border-style: none;
   margin-top: 2rem;
 }
 #learn-more-button {
   background-color: rgb(2, 199, 67);
-  margin-left: 15%;
-  margin-right: 5%;
+  margin-right: 4%;
 }
 #get-app-button {
   background-color: rgb(0, 135, 245);
@@ -79,17 +76,14 @@ input[type="button"] {
 .phone {
   height: 30em;
   float: right;
-  /* border: rosybrown solid 2px; */
 }
 #black-phone {
   z-index: 2;
   position: relative;
-  top: 3rem;
-  left: 5rem;
+  top: 1rem;
+  left: 8rem;
 }
 #white-phone {
   z-index: 1;
   position: relative;
-  top: 2rem;
-  right: 2rem;
 }
