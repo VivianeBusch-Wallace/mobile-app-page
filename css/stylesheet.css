@@ -10,22 +10,16 @@ body {
   margin: 2vh 20vw 2vh 20vw;
 }
 /* navigation */
-#top-head {
-  border: lime solid 2px;
-}
 nav {
   height: 10vh;
-  border: tomato solid 2px;
 }
 /* logo */
 #logo {
   float: left;
-  border: white solid 2px;
 }
 #challenge-logo {
   height: 8vh;
   width: auto;
-  border: yellow solid 2px;
 }
 
 /* nav list */
@@ -38,71 +32,64 @@ li {
 }
 li a {
   padding: 1em;
-  border: violet solid 2px;
   text-transform: uppercase;
   text-decoration: none;
 }
 /* main section */
 section {
   margin-top: 10vh;
-  border: maroon solid 2px;
   display: inline-flex;
   /* width: max-content; */
   position: relative;
 }
 /* text and buttons */
 #text-buttons-container {
-  background-color: seagreen;
   width: 50%;
 }
 
 /* text */
 #text {
-  border: violet solid 2px;
   width: 30em;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 h1 {
   font-size: 2rem;
 }
 
 /* buttons */
-/* #buttons {
-
-} */
 input[type="button"] {
   height: 3em;
   width: 10em;
   border-radius: 0.4em;
   border-style: none;
+  margin-top: 2rem;
 }
 #learn-more-button {
   background-color: rgb(2, 199, 67);
   margin-left: 15%;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 #get-app-button {
   background-color: rgb(0, 135, 245);
 }
 /* phone images */
 #phone-images {
-  background-color: chartreuse;
-  opacity: 0.5;
-  border: mediumaquamarine solid 2px;
   width: 50%;
-  /* margin-right: 10%; */
-  /* vertical-align: baseline; */
-  /* float: right; */
-  overflow: visible;
 }
 .phone {
   height: 30em;
   float: right;
-  border: rosybrown solid 2px;
+  /* border: rosybrown solid 2px; */
 }
 #black-phone {
   z-index: 2;
+  position: relative;
+  top: 3rem;
+  left: 5rem;
 }
 #white-phone {
   z-index: 1;
+  position: relative;
+  top: 2rem;
+  right: 2rem;
 }
