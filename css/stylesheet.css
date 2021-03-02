@@ -46,7 +46,7 @@ li a {
 section {
   margin-top: 10vh;
   border: maroon solid 2px;
-  /* display: inline-flex; */
+  display: inline-flex;
   /* width: max-content; */
   position: relative;
 }
@@ -60,6 +60,10 @@ section {
 #text {
   border: violet solid 2px;
   width: 30em;
+  margin-top: 10vh;
+}
+h1 {
+  font-size: 2rem;
 }
 
 /* buttons */
@@ -69,14 +73,13 @@ section {
 input[type="button"] {
   height: 3em;
   width: 10em;
-  border-radius: 0.5em;
+  border-radius: 0.4em;
   border-style: none;
-  /* align-items: center; */
 }
 #learn-more-button {
   background-color: rgb(2, 199, 67);
-  margin-right: 15%;
   margin-left: 15%;
+  margin-right: 10%;
 }
 #get-app-button {
   background-color: rgb(0, 135, 245);
@@ -84,12 +87,16 @@ input[type="button"] {
 /* phone images */
 #phone-images {
   background-color: chartreuse;
+  opacity: 0.5;
   border: mediumaquamarine solid 2px;
   width: 50%;
+  /* margin-right: 10%; */
+  /* vertical-align: baseline; */
   /* float: right; */
+  overflow: visible;
 }
 .phone {
-  height: 20em;
+  height: 30em;
   float: right;
   border: rosybrown solid 2px;
 }
