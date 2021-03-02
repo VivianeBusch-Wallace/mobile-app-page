@@ -7,11 +7,13 @@ body {
   background-image: url(../images/bg_001.jpg);
 }
 #body-container {
-  margin: 2vh 22vw 2vh 22vw;
+  width: 60%;
+  margin: 0 auto;
 }
 /* navigation */
 nav {
   height: 10vh;
+  margin-top: 2.5rem;
 }
 /* logo */
 #logo {
@@ -30,19 +32,29 @@ nav ul {
 li {
   display: inline;
 }
-li a {
+
+li {
   padding: 1em;
   text-transform: uppercase;
   text-decoration: none;
 }
+
+ul :nth-child(6) {
+  padding-right: 0 !important;
+}
+
 /* main section */
 section {
   margin-top: 4vh;
   display: inline-flex;
+  width: 100%;
+  border: turquoise 2px solid;
 }
 /* text and buttons */
 #text-buttons-container {
   width: 50%;
+  /* display: inline-block; */
+  border: violet solid 1px;
 }
 
 /* text */
@@ -71,19 +83,21 @@ input[type="button"] {
 }
 /* phone images */
 #phone-images {
+  /* display: inline-block;*/
+  position: relative;
   width: 50%;
+  border: tomato solid 1px;
 }
 .phone {
   height: 30em;
   float: right;
 }
 #black-phone {
+  position: absolute;
   z-index: 2;
-  position: relative;
   top: 1rem;
   left: 8rem;
 }
 #white-phone {
   z-index: 1;
-  position: relative;
 }
