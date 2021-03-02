@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile App Page</title>
     <link rel="stylesheet" href="./css/stylesheet.css" />
+    <!-- comment: some IDs are not actively used, they just help with organization of the elements -->
   </head>
   <body>
     <div id="body-container">
@@ -29,7 +30,7 @@
         </nav>
       </div>
       <section>
-        <div id="section-container">
+        <div id="text-buttons-container">
           <div id="text">
             <h1>Make your Startup web with our template,</h1>
             <p>
@@ -45,11 +46,21 @@
             <input type="button" value="Learn More" id="learn-more-button" />
             <input type="button" value="Get the App" id="get-app-button" />
           </div>
-          <div id="phone-images">
-            <img src="./images/phone_002.png" alt="black phone" />
-            <img src="./images/phone_001.png" alt="white phone" />
-          </div>
         </div>
+        <span id="phone-images">
+          <img
+            src="./images/phone_001.png"
+            alt="white phone"
+            class="phone"
+            id="white-phone"
+          />
+          <img
+            src="./images/phone_002.png"
+            alt="black phone"
+            class="phone"
+            id="black-phone"
+          />
+        </span>
       </section>
     </div>
   </body>

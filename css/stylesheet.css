@@ -7,10 +7,18 @@ body {
   background-image: url(../images/bg_001.jpg);
 }
 #body-container {
-  margin: 1vh 20vw;
+  margin: 2vh 20vw 2vh 20vw;
 }
 /* navigation */
-nav div {
+#top-head {
+  border: lime solid 2px;
+}
+nav {
+  height: 10vh;
+  border: tomato solid 2px;
+}
+/* logo */
+#logo {
   float: left;
   border: white solid 2px;
 }
@@ -19,10 +27,8 @@ nav div {
   width: auto;
   border: yellow solid 2px;
 }
-nav {
-  height: 10vh;
-  border: tomato solid 2px;
-}
+
+/* nav list */
 nav ul {
   float: right;
   list-style-type: none;
@@ -37,21 +43,59 @@ li a {
   text-decoration: none;
 }
 /* main section */
+section {
+  margin-top: 10vh;
+  border: maroon solid 2px;
+  /* display: inline-flex; */
+  /* width: max-content; */
+  position: relative;
+}
+/* text and buttons */
+#text-buttons-container {
+  background-color: seagreen;
+  width: 50%;
+}
+
 /* text */
+#text {
+  border: violet solid 2px;
+  width: 30em;
+}
 
 /* buttons */
+/* #buttons {
+
+} */
 input[type="button"] {
   height: 3em;
   width: 10em;
   border-radius: 0.5em;
   border-style: none;
+  /* align-items: center; */
 }
 #learn-more-button {
   background-color: rgb(2, 199, 67);
+  margin-right: 15%;
+  margin-left: 15%;
 }
 #get-app-button {
   background-color: rgb(0, 135, 245);
 }
 /* phone images */
 #phone-images {
+  background-color: chartreuse;
+  border: mediumaquamarine solid 2px;
+  width: 50%;
+  /* float: right; */
+}
+.phone {
+  height: 20em;
+  float: right;
+  border: rosybrown solid 2px;
+}
+#black-phone {
+  z-index: 2;
+}
+#white-phone {
+  z-index: 1;
 }
