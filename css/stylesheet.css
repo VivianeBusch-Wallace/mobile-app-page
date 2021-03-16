@@ -7,7 +7,7 @@ body {
   background-image: url(../images/bg_001.jpg);
 }
 .body-container {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 /* navigation */
@@ -31,16 +31,14 @@ nav ul {
 }
 li {
   display: inline;
-}
-
-li {
   padding: 1em;
   text-transform: uppercase;
+}
+li a {
   text-decoration: none;
 }
-
-ul :nth-child(6) {
-  padding-right: 0 !important;
+ul :last-child {
+  padding-right: 0;
 }
 
 /* main section */
@@ -48,13 +46,10 @@ section {
   margin-top: 4vh;
   display: inline-flex;
   width: 100%;
-  border: turquoise 2px solid;
 }
 /* text and buttons */
 .text-buttons-container {
   width: 50%;
-  /* display: inline-block; */
-  border: violet solid 1px;
 }
 
 /* text */
@@ -85,14 +80,13 @@ input[type="button"] {
 .phone-images {
   position: relative;
   width: 50%;
-  border: tomato solid 1px;
 }
 .phone {
   height: 30em;
   float: right;
 }
 .black-phone {
-  position: absolute;
+  position: relative;
   z-index: 2;
   top: 1rem;
   left: 8rem;
