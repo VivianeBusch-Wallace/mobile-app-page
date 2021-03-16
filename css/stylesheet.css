@@ -83,7 +83,6 @@ input[type="button"] {
 }
 /* phone images */
 .phone-images {
-  /* display: inline-block;*/
   position: relative;
   width: 50%;
   border: tomato solid 1px;
