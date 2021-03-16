@@ -2,11 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-html {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: white;
+}
+:root {
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background-image: url(../images/bg_001.jpg);
@@ -33,12 +33,13 @@ nav {
   height: 8vh;
   width: auto;
 }
-
 /* nav list */
 nav ul {
   list-style-type: none;
   border: blue 1px solid;
   display: flex;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
 }
 li {
   border: green 1px solid;
@@ -55,21 +56,26 @@ ul :last-child {
 /* main section */
 section {
   margin-top: 4vh;
-  display: inline-flex;
+  display: flex;
   width: 100%;
 }
 /* text and buttons */
 .text-buttons-container {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 /* text */
 .text {
   width: 30em;
-  margin-top: 15vh;
+  /* margin-top: 15vh; */
 }
 h1 {
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* buttons */
@@ -87,9 +93,13 @@ input[type="button"] {
 .get-app-button {
   background-color: rgb(29, 149, 246);
 }
+
 /* phone images */
 .phone-images {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
   width: 50%;
 }
 .phone {
@@ -97,7 +107,7 @@ input[type="button"] {
   float: right;
 }
 .black-phone {
-  position: absolute;
+  /* position: absolute; */
   z-index: 2;
   top: 1rem;
   left: 8rem;
