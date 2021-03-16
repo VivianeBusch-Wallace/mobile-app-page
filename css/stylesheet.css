@@ -6,7 +6,7 @@
 body {
   background-image: url(../images/bg_001.jpg);
 }
-#body-container {
+.body-container {
   width: 60%;
   margin: 0 auto;
 }
@@ -16,10 +16,10 @@ nav {
   margin-top: 2.5rem;
 }
 /* logo */
-#logo {
+.logo {
   float: left;
 }
-#challenge-logo {
+.challenge-logo {
   height: 8vh;
   width: auto;
 }
@@ -51,14 +51,14 @@ section {
   border: turquoise 2px solid;
 }
 /* text and buttons */
-#text-buttons-container {
+.text-buttons-container {
   width: 50%;
   /* display: inline-block; */
   border: violet solid 1px;
 }
 
 /* text */
-#text {
+.text {
   width: 30em;
   margin-top: 15vh;
 }
@@ -74,15 +74,15 @@ input[type="button"] {
   border-style: none;
   margin-top: 2rem;
 }
-#learn-more-button {
+.learn-more-button {
   background-color: rgb(2, 199, 67);
   margin-right: 4%;
 }
-#get-app-button {
+.get-app-button {
   background-color: rgb(29, 149, 246);
 }
 /* phone images */
-#phone-images {
+.phone-images {
   /* display: inline-block;*/
   position: relative;
   width: 50%;
@@ -92,12 +92,12 @@ input[type="button"] {
   height: 30em;
   float: right;
 }
-#black-phone {
+.black-phone {
   position: absolute;
   z-index: 2;
   top: 1rem;
   left: 8rem;
 }
-#white-phone {
+.white-phone {
   z-index: 1;
 }
