@@ -12,7 +12,7 @@ body {
   background-image: url(../images/bg_001.jpg);
 }
 .body-container {
-  width: 50vw;
+  width: 55vw;
   margin: 0 auto 0 auto;
 }
 /* navigation */
@@ -86,10 +86,9 @@ ul :last-child {
 section {
   /* margin-top: 4vh; */
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   border: turquoise 3px solid;
 }
 /* text and buttons */
@@ -99,16 +98,15 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  /* align-self: center; */
 }
 /* text */
 .text {
   width: 30em;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
+  font-weight: normal;
 }
 /* buttons */
 input[type="button"] {
@@ -117,6 +115,7 @@ input[type="button"] {
   border-radius: 0.2em;
   border-style: none;
   margin-top: 2rem;
+  font-size: 1rem;
 }
 .learn-more-button {
   background-color: rgb(2, 199, 67);
@@ -131,23 +130,19 @@ input[type="button"] {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  /* align-self: center; */
   width: 50%;
-  height: 80%;
+  height: 70%;
   border: wheat 2px solid;
 }
 .phone {
-  /* height: 30em; */
-  /* width: 65%; */
   height: 100%;
   width: auto;
   border: tomato 2px solid;
 }
 .black-phone {
   position: absolute;
-  /* z-index: -1; */
   top: 1rem;
-  right: 8rem;
+  right: 9rem;
 }
 .white-phone {
   position: absolute;
