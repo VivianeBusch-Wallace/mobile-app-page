@@ -165,14 +165,19 @@ input[type="button"] {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .body-container {
+  body {
     width: 100vw;
-    margin: none;
+    height: 100vh;
+  }
+  .body-container {
+    width: 120vw;
   }
   .top-head {
-    width: 100vw;
+    width: 100%;
   }
-
+  .main {
+    width: 100%;
+  }
   nav ul {
     display: none;
   }
