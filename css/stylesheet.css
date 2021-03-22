@@ -13,7 +13,7 @@ body {
 }
 .body-container {
   width: 50%;
-  margin: 0 auto;
+  margin: 3rem auto 0 auto;
 }
 /* navigation */
 .top-head {
@@ -22,8 +22,9 @@ body {
   justify-content: space-between;
 }
 nav {
-  height: 10vh;
+  height: 6vh;
   margin-top: 2.5rem;
+  display: flex;
 }
 /* logo in navigation area */
 .logo {
@@ -41,14 +42,15 @@ nav {
   align-items: center;
   position: relative;
   width: 3.7rem;
-  height: 3.7rem;
+  height: 100%;
   background-color: whitesmoke;
   padding: 0.3rem 0;
   cursor: pointer;
+  border-radius: 7%;
 }
 .bars {
   width: 70%;
-  height: 0.5rem;
+  height: 0.3rem;
   background-color: rgb(136, 136, 136);
   border-radius: 5rem;
   z-index: 2;
