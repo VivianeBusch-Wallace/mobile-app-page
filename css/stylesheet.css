@@ -33,6 +33,28 @@ nav {
   height: 8vh;
   width: auto;
 }
+/* hamburger menu */
+.hamburguesa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 3.7rem;
+  height: 3.7rem;
+  background-color: whitesmoke;
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+.bars {
+  width: 70%;
+  height: 0.5rem;
+  background-color: rgb(136, 136, 136);
+  border-radius: 5rem;
+  z-index: 2;
+  /* position: relative; */
+}
+
 /* nav list */
 nav ul {
   list-style-type: none;
