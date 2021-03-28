@@ -48,7 +48,7 @@ nav {
   align-items: center;
   position: relative;
   width: 3.4rem;
-  height: 80%;
+  height: 3.4rem;
   background-color: whitesmoke;
   padding: 0.3rem 0;
   cursor: pointer;
@@ -102,9 +102,9 @@ section {
   justify-content: center;
 }
 /* text */
-.text {
+/* .text {
   width: 30em;
-}
+} */
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -133,7 +133,7 @@ input[type="button"] {
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  height: 70%;
+  height: 30vw;
   border: wheat 2px solid;
 }
 .phone {
@@ -170,7 +170,7 @@ input[type="button"] {
     height: 100vh;
   }
   .body-container {
-    width: 120vw;
+    width: 100vw;
   }
   .top-head {
     width: 100%;
